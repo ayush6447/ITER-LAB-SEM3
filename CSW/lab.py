@@ -154,7 +154,7 @@ a=0
 while a>20:
     a=a+2           
     print(a)   
-'''
+''''''
 s = "bbsr-751030"
 alp = 0
 dig = 0
@@ -167,4 +167,15 @@ for i in s:
 
 print("Alphabets:", alp)
 print("Digits:", dig)
-
+'''
+'''
+def main():
+    for i in range(5):
+        print("hello")
+if __name__ == "__main__":
+    main()
+'''
+def add(fname,a,b):
+    print(fname.upper())
+    print(a+b)
+add(fname="ayush",a=12,b=45)

@@ -118,3 +118,49 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2025-09-23 11:58:25.076
 !MESSAGE Setup tasks were performed during startup updating 3 preferences. See 'C:\Users\CL402-52\eclipse\java-2024-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2025-09-25 11:14:19.346 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-25 11:14:50.122
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-25 11:14:51.557
+!MESSAGE Logback config file: C:\Users\CL402-52\Documents\skywalker-24E119E21\AD\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-25 11:14:59.789
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CL402-52'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2025-09-25 11:15:08.751
+!MESSAGE Setup tasks were performed during startup updating 3 preferences. See 'C:\Users\CL402-52\eclipse\java-2024-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2025-09-25 11:17:32.466 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-25 11:17:34.760
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-25 11:17:35.892
+!MESSAGE Logback config file: C:\Users\CL402-52\Documents\skywalker-24E119E21\AD\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-25 11:17:40.681
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CL402-52'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2025-09-25 11:17:49.249
+!MESSAGE Setup tasks were performed during startup updating 3 preferences. See 'C:\Users\CL402-52\eclipse\java-2024-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
