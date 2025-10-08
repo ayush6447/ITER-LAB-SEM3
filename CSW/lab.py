@@ -175,7 +175,80 @@ def main():
 if __name__ == "__main__":
     main()
 '''
-def add(fname,a,b):
+'''def add(fname,a,b):
     print(fname.upper())
     print(a+b)
 add(fname="ayush",a=12,b=45)
+add(fname="ash",a=1,b=4)
+add(fname="sh",a=2,b=5)
+add(fname="h",a=126,b=456)
+add(fname="a",a=125,b=458)
+add(fname="ay",a=127,b=45465)
+add(fname="ayu",a=1232,b=4565)
+'''
+
+
+
+
+
+'''def calc(a, b, c, op):
+    if op == "sum":
+        return a + b + c
+    elif op == "product":
+        return a * b * c
+    else:
+        return None
+
+num1 = int(input("Enter first integer: "))
+num2 = int(input("Enter second integer: "))
+num3 = int(input("Enter third integer: "))
+op = input("Enter operation (sum/product): ").strip().lower()
+
+result = calc(num1, num2, num3, op)
+
+if result is not None:
+    print(f"{op.capitalize()} of three numbers =", result)
+else:
+    print("Invalid operation")'''
+'''
+# Factorial of a number
+
+n = int(input("Enter a non-negative integer: "))
+
+
+
+def factorial(num):
+    if num < 0:
+        return "Factorial is not defined for negative numbers."
+    elif num == 0 or num == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, num + 1):
+            result *= i
+        return result
+
+
+print(f"Factorial of {n} is {factorial(n)}")
+r=input("enter rdius")
+print(f"area={3.14*int(r)**2}")
+'''
+
+
+
+numbers = []
+
+
+i = 1  
+
+while i <= 10: 
+    numbers.append(i)  
+    i += 1             
+
+print("The list is:", numbers)
+
+
+
+
+tb=("a","b",1)
+print(tb[2])
