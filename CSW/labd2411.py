@@ -20,4 +20,26 @@ else:
 # else:
 #     print('Incorrect format.')
 
-    
+
+#q2
+import re
+
+pin = input("Enter PIN code: ")
+
+pattern = r'^[1-9][0-9]{5}$'
+
+if re.match(pattern, pin):
+    print("Valid PIN code")
+else:
+    print("Invalid PIN code")
+#q1
+import re
+
+s = input("Enter a string: ")
+
+pattern = r'^[A-Za-z$].*'
+
+if re.match(pattern, s):
+    print("Valid: First character is alphabet or $")
+else:
+    print("Invalid: First character is NOT alphabet or $")
